@@ -10,9 +10,7 @@
 * {
     margin: 0%;
     padding: 0%;
-
 }
-
 
 .fullscreen {
     width: 100vw;
@@ -290,4 +288,17 @@ footer {
 #footerwrapper {
     margin: 0 auto;
     max-width: 1280px;
+}
+
+.footersocials {
+    display: flex;
+    margin: 0 auto;
+}
+
+.footersocials .socials {
+    height: 30px;
+}
+
+.footersocials .socials img {
+    height: 30px;
 }
