@@ -19,7 +19,7 @@
 body {
     font-family: "Montserrat", Arial, Helvetica, sans-serif;
     margin: 0 auto;
-    max-width: 1280px;
+    
     background-color: var(--background);
 }
 
@@ -53,6 +53,11 @@ header h1 img {
     height: 30px;
     transform: translateY(2px);
     padding-right: 5px;
+}
+
+header h1 img:hover {
+    fill: var(--green);
+    
 }
 
 a:not(#actualpage) {
@@ -186,3 +191,79 @@ nav {
     }    
 }    
 
+
+/* 
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+
+.container {
+    background-image: url('img/backgroundsplash.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 720px;
+    width: 100%;
+    display: flex;
+}
+
+.formcontainer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 640px;
+    margin: auto;
+}
+
+.formcontainer form {
+    display: inline-block;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 618px;
+    padding: 10px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.name-container {
+    display: flex;
+    gap: 16px;
+}
+
+.name-container input {
+    width: 290px;
+}
+
+.formcontainer h2 {
+    margin: 0%;
+    padding-bottom: 20px;
+}
+
+button {
+    background: var(--lightpurple);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--purple);
+}
+
+
+main
